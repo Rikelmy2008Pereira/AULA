@@ -30,8 +30,15 @@ body{
 }
 
 .footer{
-    display: flex;
-    justify-content: flex-end;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: #ffffff;
+    box-sizing: border-box;
+    text-align: center;
+
 }
 
 p,h2{
@@ -46,6 +53,7 @@ p,h2{
 
 .item{
     background: DeepPink;
+    margin: 15px;
 }
 
 .item p{
